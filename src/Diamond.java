@@ -1,5 +1,5 @@
 public class Diamond {
-    private static void print(int n){
+    public static void print(int n){
         String result = "";
         int middle = (int) (Math.floor(((n*2)-1) / 2));
 

@@ -1,5 +1,5 @@
 public class IsoscelesTriangle {
-    private static void print(int n){
+    public static void print(int n){
         String result = "";
         for(int row=0; row< n; row++){
             for(int col=0; col<(n*2)-1; col++){

@@ -1,5 +1,5 @@
 public class HorizontalLine {
-    static private void print(int n){
+    static public void print(int n){
         int i = 1;
         while(i<=n){
             System.out.print("*");
