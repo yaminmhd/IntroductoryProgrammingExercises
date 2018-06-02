@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class PrimeFactorQuestion {
-    private static HashSet generate(int n){
+    public static HashSet generate(int n){
         HashSet numberList = new HashSet<>();
         if(n == 0 || n == 1){
             return numberList;
@@ -17,6 +17,6 @@ public class PrimeFactorQuestion {
     }
 
     public static void main(String[] args){
-        System.out.println(generate(100));
+        System.out.println(generate(30));
     }
 }
